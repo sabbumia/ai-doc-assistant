@@ -38,7 +38,7 @@ type SessionDetail = {
   createdOn: string;
 };
 
-const MAX_REPORTS = 15;
+const MAX_REPORTS = 5;
 
 function Dashboard() {
   const [reportCount, setReportCount] = useState(0);
