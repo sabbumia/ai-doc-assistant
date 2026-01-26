@@ -250,6 +250,19 @@ export default function Footer() {
               </div>
             </div>
 
+            <div className="flex items-right gap-4 text-sm text-gray-400">
+              <span className="hidden sm:inline text-gray-700">•</span>
+              <span>Created by</span>
+              <a
+                href="https://sazzadadib.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1 group"
+              >
+                Sazzad Hossain
+              </a>
+            </div>
+
             {/* Back to Top Button */}
             <motion.button
               onClick={scrollToTop}
