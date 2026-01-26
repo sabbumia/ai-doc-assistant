@@ -55,12 +55,20 @@ export default function Navbar() {
             className="flex items-center"
           >
             <Link href="/" className="flex items-center">
-              <Image 
+              {/* <Image 
                 src="/logo.png" 
                 alt="AI Doctor" 
                 width={140} 
                 height={70}
                 className="h-9 w-auto lg:h-10"
+                priority
+              /> */}
+              <Image
+                src="/logo.png"
+                alt="AI Doctor"
+                width={220}
+                height={70}
+                className="w-auto"
                 priority
               />
             </Link>
