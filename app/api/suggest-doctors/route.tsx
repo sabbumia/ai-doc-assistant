@@ -4,14 +4,14 @@ import { AIDoctorAgents } from "@/shared/list";
 
 // List of models to try in order
 const MODELS = [
-    "deepseek/deepseek-chat-v3.1:free",
-    "google/gemini-2.0-flash-exp:free",
-    "deepseek/deepseek-r1:free",
-    "qwen/qwen3-coder:free",
-    "tngtech/deepseek-r1t2-chimera:free",
-    "microsoft/mai-ds-r1:free",
-    "openai/gpt-oss-20b:free",
-    "z-ai/glm-4.5-air:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nex-agi/nex-n2.5-mini:free",
+    "inclusionai/ling-3.0-flash-sante:free",
+    "poolside/laguna-s-2.1:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "google/gemma-4-31b-it:free",
+    "google/gemma-4-26b-a4b-it:free",
 ];
 
 async function tryModelCompletion(model: string, messages: any[]) {
